@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#338D99"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/gravity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Student Registration"
+        android:textColor="#2E46C1"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/input_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter USN"
+        android:ems="10"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/input_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Name"
+        android:ems="10"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/input_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter Branch"
+        android:inputType="text"
+        />
+
+
+    <EditText
+        android:id="@+id/input_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Enter Semester"
+        />
+
+
+    <EditText
+        android:id="@+id/input_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Enter Section"
+        />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Register" />
+
+    <ImageView
+        android:id="@+id/portal_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:foregroundTint="#7986CB"
+        android:scaleType="fitCenter"
+        android:translationY="10dp"
+        app:srcCompat="@drawable/girl_student" />
+
+</LinearLayout>
