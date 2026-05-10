@@ -41,16 +41,16 @@ public class MainActivity extends AppCompatActivity {
                 String section = input5.getText().toString();
 
                 // Intent to move to SecondActivity
-                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+                Intent i = new Intent(MainActivity.this, SecondActivity.class);
 
                 // Sending data
-                intent.putExtra("USN", usn);
-                intent.putExtra("NAME", name);
-                intent.putExtra("BRANCH", branch);
-                intent.putExtra("SEMESTER", semester);
-                intent.putExtra("SECTION", section);
+                i.putExtra("USN", usn);
+                i.putExtra("NAME", name);
+                i.putExtra("BRANCH", branch);
+                i.putExtra("SEMESTER", semester);
+                i.putExtra("SECTION", section);
 
-                startActivity(intent);
+                startActivity(i);
             }
 
 

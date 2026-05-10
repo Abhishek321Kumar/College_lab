@@ -1,5 +1,6 @@
 package com.example.student_regiistration;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -21,12 +22,14 @@ public class SecondActivity extends AppCompatActivity {
         tv4 = findViewById(R.id.textview_08);
         tv5 = findViewById(R.id.textview_10);
 
+        Intent i = getIntent();
+
         // Receiving data from MainActivity
-        String usn = getIntent().getStringExtra("USN");
-        String name = getIntent().getStringExtra("NAME");
-        String branch = getIntent().getStringExtra("BRANCH");
-        String semester = getIntent().getStringExtra("SEMESTER");
-        String section = getIntent().getStringExtra("SECTION");
+        String usn = i.getStringExtra("USN");
+        String name = i.getStringExtra("NAME");
+        String branch = i.getStringExtra("BRANCH");
+        String semester = i.getStringExtra("SEMESTER");
+        String section = i.getStringExtra("SECTION");
 
         // Setting data to TextViews
         tv1.setText(usn);
