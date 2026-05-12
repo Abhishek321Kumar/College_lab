@@ -4,10 +4,14 @@
     android:id="@+id/label"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CDDC39"
+    android:background="#3D5AFE"
     android:clickable="true"
-    android:hint="Welcome"
-    android:textColor="#E91E63"
-    android:textSize="25sp"
-    android:textStyle="bold">
+    android:focusable="true"
+    android:fontFamily="@font/poppins_semibold"
+    android:hint="@string/welcome"
+    android:padding="10dp"
+    android:textAlignment="center"
+    android:textColor="@color/white"
+    android:textSize="25sp">
+
 </TextView>

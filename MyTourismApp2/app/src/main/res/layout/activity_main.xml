@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC400"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Karnataka Tourism"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/emblem_logo" />
+
+    <ListView
+        android:id="@+id/ListView1"
+        android:layout_width="390dp"
+        android:layout_height="450dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="#E6AF68"
+        android:overScrollFooter="@android:drawable/arrow_up_float"
+        android:overScrollHeader="@android:drawable/arrow_down_float"
+        android:padding="10dp"
+        android:scrollbarSize="15dp"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbarThumbVertical="@android:drawable/btn_default" />
+
+</LinearLayout>
