@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="Deprecated">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="20dp"
+        android:gravity="center"
+        android:text="Student Database Program"
+        android:textColor="#39B9C8"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="47dp"
+        android:layout_y="112dp"
+        android:text="Enter Rollno"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="165dp"
+        android:hint="Enter Name"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/marks"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="233dp"
+        android:hint="Enter Marks"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="52dp"
+        android:layout_y="246dp"
+        android:text="Enter Marks"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="48dp"
+        android:layout_y="181dp"
+        android:text="Enter Name"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/rollno"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="201dp"
+        android:layout_y="100dp"
+        android:hint="Enter Roll no"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="340dp"
+        android:text="Insert" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="57dp"
+        android:layout_y="417dp"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="258dp"
+        android:layout_y="416dp"
+        android:text="View" />
+
+    <Button
+        android:id="@+id/viewAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="163dp"
+        android:layout_y="506dp"
+        android:text="ViewAll" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="256dp"
+        android:layout_y="341dp"
+        android:text="Delete" />
+
+
+</AbsoluteLayout>
