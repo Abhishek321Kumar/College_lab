@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">student_registration</string>
+    <string name="usn">USN</string>
+    <string name="name">Name</string>
+</resources>
