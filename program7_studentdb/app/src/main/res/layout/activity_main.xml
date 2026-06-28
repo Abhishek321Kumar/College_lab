@@ -9,9 +9,8 @@
     tools:ignore="Deprecated">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_x="100dp"
         android:layout_y="20dp"
         android:gravity="center"
         android:text="Student Database Program"

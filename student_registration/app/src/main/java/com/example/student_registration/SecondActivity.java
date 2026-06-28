@@ -5,6 +5,7 @@ import static com.example.student_registration.MainActivity.name;
 import static com.example.student_registration.MainActivity.section;
 import static com.example.student_registration.MainActivity.usn;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -21,10 +22,19 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_second);
-        t1 = (TextView) findViewById(R.id.textView);
-        t2 = (TextView) findViewById(R.id.textView);
-        t3 = (TextView) findViewById(R.id.textView);
-        t4 = (TextView) findViewById(R.id.textView);
+        t1 = (TextView) findViewById(R.id.textView7);
+        t2 = (TextView) findViewById(R.id.textView8);
+        t3 = (TextView) findViewById(R.id.textView9);
+        t4 = (TextView) findViewById(R.id.textView10);
+        Intent i=getIntent();
+        s1=i.getStringExtra(usn);
+        s2=i.getStringExtra(name);
+        s3=i.getStringExtra(branch);
+        s4=i.getStringExtra(section);
+        t1.setText("USN : " + s1);
+        t2.setText("Name : " + s2);
+        t3.setText("Branch : " + s3);
+        t4.setText("Section : " + s4);
 
 
     }

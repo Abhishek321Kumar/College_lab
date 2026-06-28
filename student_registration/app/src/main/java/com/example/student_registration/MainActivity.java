@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     public static final String usn = "com.example.student_registration.usn";
     public static final String name = "com.example.student_registration.name";
     public static final String section = "com.example.student_registration.section";
-    public static final String branch = "com.example.student_registration.usn";
+    public static final String branch = "com.example.student_registration.branch";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +45,13 @@ public class MainActivity extends AppCompatActivity {
                     s2 = e2.getText().toString();
                     s3 = e3.getText().toString();
                     s4=e4.getText().toString();
-                    Intent i = new Intent(packageContext:MainActivity.this)
+                    Intent i = new Intent(MainActivity.this, SecondActivity.class);
+                i.putExtra(usn, s1);
+                i.putExtra(name, s2);
+                i.putExtra(branch, s3);
+                i.putExtra(section, s4);
+
+                startActivity(i);
                 }
         });
 

@@ -12,13 +12,14 @@
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
         android:layout_marginBottom="30dp"
-        android:text="English"
-        android:textSize="50dp" />
+        android:text="English Movies"
+        android:textSize="30dp" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="718dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="90dp"
         android:src="@drawable/english" />
 
 </RelativeLayout>

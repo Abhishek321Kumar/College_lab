@@ -54,7 +54,7 @@
         android:height="40sp"
         android:ems="10"
         android:inputType="text"
-        android:hint="Section"/>
+        android:hint="Branch"/>
 
     <EditText
         android:id="@+id/InputText4"
@@ -62,7 +62,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:hint="Branch" />
+        android:hint="Section" />
 
     <Button
         android:id="@+id/button"
